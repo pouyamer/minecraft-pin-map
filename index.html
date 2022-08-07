@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+
+    <script src="/js/utils/util.js"></script>
+    <script src="/js/globals/types.js"></script>
+    <script src="/js/classes/point.js"></script>
+    <script src="js/classes/location.js" defer></script>
+    <script src="js/classes/pin.js" defer></script>
+    <script src="/js/data/data.js" defer></script>
+    <script src="/js/config/pin.js" defer></script>
+    <script src="/js/config/config.js" defer></script>
+    <script src="/js/error-handle.js" defer></script>
+    <script src="/js/script.js" defer></script>
+</head>
+
+<body>
+
+    <p class="from-to">(<span class="fx">0</span>, <span class="fy">0</span>) >> (<span class="tx">0</span>, <span
+            class="ty">0</span>)</p>
+    <canvas class="canvas"></canvas>
+
+    <div class="pin-info">
+        <div class="pin-info-container">
+            <p class="pin-name">
+                Name: <span>name</span>
+            </p>
+            <p class="pin-type">
+                Type: <span>type</span>
+            </p>
+            <p class="pin-loc">
+                ( <span class="loc-x">0</span>, <span class="loc-y">0</span>, <span class="loc-z">0</span> )
+            </p>
+            <p class="pin-keywords">
+                Keywords:
+                <button class="pin-keyword kw-mob">
+                    Mob
+                </button>
+                <button class="pin-keyword kw-npc">
+                    NPC
+                </button>
+
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

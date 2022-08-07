@@ -1,0 +1,70 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+button {
+  cursor: pointer;
+}
+
+.canvas {
+  /* transform: rotate(45deg); */
+  border: 1px solid #000;
+}
+.from-to {
+  position: absolute;
+}
+
+.pin-info {
+  /* color of discord */
+  background-color: #7289da;
+  width: fit-content;
+  padding: 4px;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 0;
+  opacity: 0.8;
+}
+
+.pin-keyword {
+  border-radius: 4px;
+  padding: 4px;
+  border: none;
+}
+
+.kw-mob {
+  background-color: #f5a623;
+  color: #7b4f0f;
+}
+
+.kw-biome {
+  background-color: #00bcd4;
+  color: #0097a7;
+}
+
+.kw-block {
+  background-color: #ad5300;
+  color: #8d3e00;
+}
+
+.kw-npc {
+  background-color: #00d419;
+  color: #00a300;
+}
+
+.kw-item {
+  background-color: #3b4b77;
+  color: #2b3b4b;
+}
+
+.kw-hostile-mob {
+  background-color: #fa2525;
+  color: #761515;
+}
